@@ -1,0 +1,103 @@
+/* Set the background color of the body */
+body {
+    background-color: #f9f9f9;
+  }
+  
+  /* Style the header */
+  header {
+    background-color: #e0d4d4;
+    padding: 10px;
+  }
+  
+  /* Style the navigation */
+  nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+  }
+  
+  nav ul li {
+    margin-right: 20px;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: #6d1d29;
+  }
+  
+  /* Style the sections */
+  section {
+    background-color: #fff;
+    padding: 40px;
+  }
+  
+  /* Style the overlay in the home section */
+  #home .overlay {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 60px;
+    text-align: center;
+    color: #fff;
+  }
+  
+  /* Style the about section */
+  #about .container {
+    text-align: center;
+  }
+  
+  /* Style the courses section */
+  #courses .container {
+    text-align: center;
+  }
+  
+  .course {
+    margin-bottom: 20px;
+  }
+  
+  /* Style the contact section */
+  #contact .container {
+    text-align: center;
+  }
+  
+  /* Style the form */
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  label {
+    margin-bottom: 10px;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  textarea {
+    padding: 10px;
+    margin-bottom: 20px;
+    width: 100%;
+  }
+  
+  input[type="submit"] {
+    background-color: #342379;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  /* Style the footer */
+  footer {
+    background-color: #0c1156;
+    padding: 20px;
+    color: #fff;
+    text-align: center;
+  }
+  img {
+    width: 50%; /* Reduce the image width to 50% of its original size */
+    height: auto; /* Maintain the aspect ratio and adjust the height accordingly */
+  }
+  img {
+    float: right; /* Shift the photo to the right side */
+    margin-left: 10px; /* Add some margin on the left side for spacing */
+  }
+  
